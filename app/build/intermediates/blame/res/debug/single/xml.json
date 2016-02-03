@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/aristocrat/AndroidStudioProjects/Ateeqs-RPi-Car/app/build/intermediates/res/merged/debug/xml/pref_data_sync.xml",
+        "source": "/home/aristocrat/AndroidStudioProjects/Ateeqs-RPi-Car/app/src/main/res/xml/pref_data_sync.xml"
+    },
+    {
+        "merged": "/home/aristocrat/AndroidStudioProjects/Ateeqs-RPi-Car/app/build/intermediates/res/merged/debug/xml/pref_notification.xml",
+        "source": "/home/aristocrat/AndroidStudioProjects/Ateeqs-RPi-Car/app/src/main/res/xml/pref_notification.xml"
+    },
+    {
+        "merged": "/home/aristocrat/AndroidStudioProjects/Ateeqs-RPi-Car/app/build/intermediates/res/merged/debug/xml/pref_headers.xml",
+        "source": "/home/aristocrat/AndroidStudioProjects/Ateeqs-RPi-Car/app/src/main/res/xml/pref_headers.xml"
+    },
+    {
+        "merged": "/home/aristocrat/AndroidStudioProjects/Ateeqs-RPi-Car/app/build/intermediates/res/merged/debug/xml/pref_general.xml",
+        "source": "/home/aristocrat/AndroidStudioProjects/Ateeqs-RPi-Car/app/src/main/res/xml/pref_general.xml"
+    }
+]
