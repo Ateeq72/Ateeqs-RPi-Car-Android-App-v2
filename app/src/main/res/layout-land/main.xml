@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:weightSum="1">
+    
+    <com.zerokol.views.JoystickView
+		android:id="@+id/joystickViewAcc"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="175dip"
+		android:layout_height="175dip"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="47dp" />
+
+
+    <com.zerokol.views.JoystickView
+        android:id="@+id/joystickViewSteer"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="175dip"
+        android:layout_height="175dip"
+        android:layout_alignTop="@+id/joystickViewAcc"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="51dp" />
+
+    <TableLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_gravity="center_horizontal"
+
+        android:id="@+id/tableLayout2"></TableLayout>
+
+    <TextView android:text="" android:id="@+id/TextViewX"
+        android:layout_width="100dip" android:layout_height="wrap_content"
+        android:layout_below="@+id/joystickViewSteer"
+        android:layout_centerHorizontal="true"></TextView>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/TextViewX"
+        android:layout_below="@+id/TextViewX"
+        android:id="@+id/table_out"
+        android:layout_alignStart="@+id/TextViewX">
+        <TextView android:text="" android:id="@+id/angleTextView"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+        <TextView android:text="" android:id="@+id/powerTextView"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+
+        <TextView android:text="" android:id="@+id/directionTextView"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    </TableRow>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/table_out"
+        android:layout_below="@+id/table_out"
+        android:layout_alignStart="@+id/table_out"
+        android:text="Settings"
+        android:id="@+id/settings_btn"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Fwd/Rev"
+        android:id="@+id/textView"
+        android:layout_above="@+id/table_out"
+        android:layout_alignStart="@+id/joystickViewAcc"
+        android:layout_marginStart="47dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Left/Right"
+        android:id="@+id/textView2"
+        android:layout_above="@+id/table_out"
+        android:layout_alignEnd="@+id/joystickViewSteer"
+        android:layout_marginEnd="51dp" />
+
+</RelativeLayout>

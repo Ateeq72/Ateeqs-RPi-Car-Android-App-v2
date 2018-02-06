@@ -9,13 +9,13 @@
         android:targetSdkVersion="23" />
 
     <uses-permission android:name="android.permission.INTERNET" />
-
-    <android:uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
-    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
+        android:debuggable="true"
         android:icon="@drawable/ic_launcher"
         android:theme="@style/AppTheme" >
         android:label="@string/app_name">
@@ -29,8 +29,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.ahmed.ateeqsrpicar.SettingsActivity"
-            android:label="@string/title_activity_settings" />
+            android:name="com.ahmed.ateeqsrpicar.SettingsConDetails"
+            android:label="@string/title_activity_settings_con_details"
+            android:parentActivityName="com.ahmed.ateeqsrpicar.AteeqRPiActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ahmed.ateeqsrpicar.AteeqRPiActivity" />
+        </activity>
     </application>
 
 </manifest>

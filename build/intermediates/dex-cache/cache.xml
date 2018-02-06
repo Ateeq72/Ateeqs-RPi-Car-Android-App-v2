@@ -1,12 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" >
-
-    <item
-        jar="/home/aristocrat/AndroidStudioProjects/Ateeqs-RPi-Car/app/libs/joystickview.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="3e6510065a4867c6d4a9e2410873bbe8baa7a860">
-        <dex dex="/home/aristocrat/AndroidStudioProjects/Ateeqs-RPi-Car/app/build/intermediates/pre-dexed/debug/joystickview_75084821a72edf94887478118f516c6634c5b189.jar" />
-    </item>
-
-</items>
+<items version="2" />
